@@ -1,28 +1,28 @@
 class Hlog < Formula
   desc "Log for humans: append, tail and grep your hlog.dev log from the terminal"
   homepage "https://hlog.dev"
-  version "0.4.1"
+  version "0.4.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/siddharthsingh89/hlog-cli/releases/download/v0.4.1/hlog-aarch64-apple-darwin.tar.gz"
-      sha256 "0cf34f6aecef8cb36fca4a369f640ba0bd17f800f61831c4cb41647ef1c9745f"
+      url "https://github.com/siddharthsingh89/hlog-cli/releases/download/v0.4.2/hlog-aarch64-apple-darwin.tar.gz"
+      sha256 "9724aa812069451e901a28bab0315c8a0434c4a3a0e666621ef82d8a45b220ed"
     end
     on_intel do
-      url "https://github.com/siddharthsingh89/hlog-cli/releases/download/v0.4.1/hlog-x86_64-apple-darwin.tar.gz"
-      sha256 "1ecf5382e02b190df48a3d651dc40e4411b50f71f87ca49db004a237345df3e3"
+      url "https://github.com/siddharthsingh89/hlog-cli/releases/download/v0.4.2/hlog-x86_64-apple-darwin.tar.gz"
+      sha256 "8d2597b5daef06102f58d5ea979df37c0a2737e35b642d1746c5b509c0c6fc96"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/siddharthsingh89/hlog-cli/releases/download/v0.4.1/hlog-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "88ad3ccfad8002a1123f3303d8c3b811463159eb7b6f348b300f87bd9ebd330f"
+      url "https://github.com/siddharthsingh89/hlog-cli/releases/download/v0.4.2/hlog-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "b5af0c7acdac10b3e0fb3b63b77d9c64e83921e9dee31039eba0830282fa5e8f"
     end
     on_intel do
-      url "https://github.com/siddharthsingh89/hlog-cli/releases/download/v0.4.1/hlog-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "27e90e0d8364dd5771864b560dd813ff57f9d59240e696e02cedd981d4f7aa3e"
+      url "https://github.com/siddharthsingh89/hlog-cli/releases/download/v0.4.2/hlog-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "13098107b81ba5fdc31bb4c8854acd9c4ef3b2120be58336fbd7c49e206fcddc"
     end
   end
 
